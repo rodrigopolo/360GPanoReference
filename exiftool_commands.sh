@@ -1,0 +1,481 @@
+#!/usr/bin/env bash
+
+exiftool \
+-XMP-GPano:ProjectionType="equirectangular" \
+-XMP-GPano:UsePanoramaViewer=True \
+-XMP-GPano:FullPanoWidthPixels=7200 \
+-XMP-GPano:FullPanoHeightPixels=3600 \
+-XMP-GPano:CroppedAreaImageWidthPixels=7200 \
+-XMP-GPano:CroppedAreaImageHeightPixels=3600 \
+-XMP-GPano:CroppedAreaLeftPixels=0 \
+-XMP-GPano:CroppedAreaTopPixels=0 \
+-XMP-GPano:PoseHeadingDegrees=315.0 \
+-XMP-GPano:PosePitchDegrees=0.0 \
+-XMP-GPano:PoseRollDegrees=0.0 \
+-XMP-GPano:InitialViewHeadingDegrees=0.0 \
+-XMP-GPano:InitialViewPitchDegrees=0.0 \
+-XMP-GPano:InitialViewRollDegrees=0.0 \
+-XMP-GPano:InitialHorizontalFOVDegrees=120.0 \
+-GPSLatitude="14 36 38.1060" -GPSLatitudeRef=North \
+-GPSLongitude="90 30 18.9504" -GPSLongitudeRef=West \
+-DateTimeOriginal="2010:10:05 07:20:15" \
+-CreateDate="2010:10:05 07:20:15" \
+-FileModifyDate="2010:10:05 07:20:15-06:00" \
+-ModifyDate="2010:10:05 07:20:15" \
+-OffsetTime="-06:00" \
+-OffsetTimeOriginal="-06:00" \
+-OffsetTimeDigitized="-06:00" \
+-IPTC:DigitalCreationDate="2010:10:05" \
+-IPTC:TimeCreated="07:20:15-06:00" \
+-IPTC:DigitalCreationTime="07:20:15-06:00" \
+-XMP:DateCreated="2010:10:05 07:20:15.00-06:00" \
+-overwrite_original \
+"./TestImages/01-North_at_+45.jpg"
+
+exiftool \
+-XMP-GPano:ProjectionType="equirectangular" \
+-XMP-GPano:UsePanoramaViewer=True \
+-XMP-GPano:FullPanoWidthPixels=7200 \
+-XMP-GPano:FullPanoHeightPixels=3600 \
+-XMP-GPano:CroppedAreaImageWidthPixels=7200 \
+-XMP-GPano:CroppedAreaImageHeightPixels=3600 \
+-XMP-GPano:CroppedAreaLeftPixels=0 \
+-XMP-GPano:CroppedAreaTopPixels=0 \
+-XMP-GPano:PoseHeadingDegrees=45.0 \
+-XMP-GPano:PosePitchDegrees=0.0 \
+-XMP-GPano:PoseRollDegrees=0.0 \
+-XMP-GPano:InitialViewHeadingDegrees=0.0 \
+-XMP-GPano:InitialViewPitchDegrees=0.0 \
+-XMP-GPano:InitialViewRollDegrees=0.0 \
+-XMP-GPano:InitialHorizontalFOVDegrees=120.0 \
+-GPSLatitude="14 36 38.1060" -GPSLatitudeRef=North \
+-GPSLongitude="90 30 18.9504" -GPSLongitudeRef=West \
+-DateTimeOriginal="2010:10:05 07:20:15" \
+-CreateDate="2010:10:05 07:20:15" \
+-FileModifyDate="2010:10:05 07:20:15-06:00" \
+-ModifyDate="2010:10:05 07:20:15" \
+-OffsetTime="-06:00" \
+-OffsetTimeOriginal="-06:00" \
+-OffsetTimeDigitized="-06:00" \
+-IPTC:DigitalCreationDate="2010:10:05" \
+-IPTC:TimeCreated="07:20:15-06:00" \
+-IPTC:DigitalCreationTime="07:20:15-06:00" \
+-XMP:DateCreated="2010:10:05 07:20:15.00-06:00" \
+-overwrite_original \
+"./TestImages/02-North_at_-45.jpg"
+
+exiftool \
+-XMP-GPano:ProjectionType="equirectangular" \
+-XMP-GPano:UsePanoramaViewer=True \
+-XMP-GPano:FullPanoWidthPixels=7200 \
+-XMP-GPano:FullPanoHeightPixels=3600 \
+-XMP-GPano:CroppedAreaImageWidthPixels=7200 \
+-XMP-GPano:CroppedAreaImageHeightPixels=3600 \
+-XMP-GPano:CroppedAreaLeftPixels=0 \
+-XMP-GPano:CroppedAreaTopPixels=0 \
+-XMP-GPano:PoseHeadingDegrees=0.0 \
+-XMP-GPano:PosePitchDegrees=5.0 \
+-XMP-GPano:PoseRollDegrees=0.0 \
+-XMP-GPano:InitialViewHeadingDegrees=0.0 \
+-XMP-GPano:InitialViewPitchDegrees=0.0 \
+-XMP-GPano:InitialViewRollDegrees=0.0 \
+-XMP-GPano:InitialHorizontalFOVDegrees=120.0 \
+-GPSLatitude="14 36 38.1060" -GPSLatitudeRef=North \
+-GPSLongitude="90 30 18.9504" -GPSLongitudeRef=West \
+-DateTimeOriginal="2010:10:05 07:20:15" \
+-CreateDate="2010:10:05 07:20:15" \
+-FileModifyDate="2010:10:05 07:20:15-06:00" \
+-ModifyDate="2010:10:05 07:20:15" \
+-OffsetTime="-06:00" \
+-OffsetTimeOriginal="-06:00" \
+-OffsetTimeDigitized="-06:00" \
+-IPTC:DigitalCreationDate="2010:10:05" \
+-IPTC:TimeCreated="07:20:15-06:00" \
+-IPTC:DigitalCreationTime="07:20:15-06:00" \
+-XMP:DateCreated="2010:10:05 07:20:15.00-06:00" \
+-overwrite_original \
+"./TestImages/03-Horizon_Below_5.jpg"
+
+exiftool \
+-XMP-GPano:ProjectionType="equirectangular" \
+-XMP-GPano:UsePanoramaViewer=True \
+-XMP-GPano:FullPanoWidthPixels=7200 \
+-XMP-GPano:FullPanoHeightPixels=3600 \
+-XMP-GPano:CroppedAreaImageWidthPixels=7200 \
+-XMP-GPano:CroppedAreaImageHeightPixels=3600 \
+-XMP-GPano:CroppedAreaLeftPixels=0 \
+-XMP-GPano:CroppedAreaTopPixels=0 \
+-XMP-GPano:PoseHeadingDegrees=0.0 \
+-XMP-GPano:PosePitchDegrees=-5.0 \
+-XMP-GPano:PoseRollDegrees=0.0 \
+-XMP-GPano:InitialViewHeadingDegrees=0.0 \
+-XMP-GPano:InitialViewPitchDegrees=0.0 \
+-XMP-GPano:InitialViewRollDegrees=0.0 \
+-XMP-GPano:InitialHorizontalFOVDegrees=120.0 \
+-GPSLatitude="14 36 38.1060" -GPSLatitudeRef=North \
+-GPSLongitude="90 30 18.9504" -GPSLongitudeRef=West \
+-DateTimeOriginal="2010:10:05 07:20:15" \
+-CreateDate="2010:10:05 07:20:15" \
+-FileModifyDate="2010:10:05 07:20:15-06:00" \
+-ModifyDate="2010:10:05 07:20:15" \
+-OffsetTime="-06:00" \
+-OffsetTimeOriginal="-06:00" \
+-OffsetTimeDigitized="-06:00" \
+-IPTC:DigitalCreationDate="2010:10:05" \
+-IPTC:TimeCreated="07:20:15-06:00" \
+-IPTC:DigitalCreationTime="07:20:15-06:00" \
+-XMP:DateCreated="2010:10:05 07:20:15.00-06:00" \
+-overwrite_original \
+"./TestImages/04-Horizon_Above_5.jpg"
+
+exiftool \
+-XMP-GPano:ProjectionType="equirectangular" \
+-XMP-GPano:UsePanoramaViewer=True \
+-XMP-GPano:FullPanoWidthPixels=7200 \
+-XMP-GPano:FullPanoHeightPixels=3600 \
+-XMP-GPano:CroppedAreaImageWidthPixels=7200 \
+-XMP-GPano:CroppedAreaImageHeightPixels=3600 \
+-XMP-GPano:CroppedAreaLeftPixels=0 \
+-XMP-GPano:CroppedAreaTopPixels=0 \
+-XMP-GPano:PoseHeadingDegrees=0.0 \
+-XMP-GPano:PosePitchDegrees=0.0 \
+-XMP-GPano:PoseRollDegrees=5.0 \
+-XMP-GPano:InitialViewHeadingDegrees=0.0 \
+-XMP-GPano:InitialViewPitchDegrees=0.0 \
+-XMP-GPano:InitialViewRollDegrees=0.0 \
+-XMP-GPano:InitialHorizontalFOVDegrees=120.0 \
+-GPSLatitude="14 36 38.1060" -GPSLatitudeRef=North \
+-GPSLongitude="90 30 18.9504" -GPSLongitudeRef=West \
+-DateTimeOriginal="2010:10:05 07:20:15" \
+-CreateDate="2010:10:05 07:20:15" \
+-FileModifyDate="2010:10:05 07:20:15-06:00" \
+-ModifyDate="2010:10:05 07:20:15" \
+-OffsetTime="-06:00" \
+-OffsetTimeOriginal="-06:00" \
+-OffsetTimeDigitized="-06:00" \
+-IPTC:DigitalCreationDate="2010:10:05" \
+-IPTC:TimeCreated="07:20:15-06:00" \
+-IPTC:DigitalCreationTime="07:20:15-06:00" \
+-XMP:DateCreated="2010:10:05 07:20:15.00-06:00" \
+-overwrite_original \
+"./TestImages/05-Horizon_tilted_5_cw.jpg"
+
+exiftool \
+-XMP-GPano:ProjectionType="equirectangular" \
+-XMP-GPano:UsePanoramaViewer=True \
+-XMP-GPano:FullPanoWidthPixels=7200 \
+-XMP-GPano:FullPanoHeightPixels=3600 \
+-XMP-GPano:CroppedAreaImageWidthPixels=7200 \
+-XMP-GPano:CroppedAreaImageHeightPixels=3600 \
+-XMP-GPano:CroppedAreaLeftPixels=0 \
+-XMP-GPano:CroppedAreaTopPixels=0 \
+-XMP-GPano:PoseHeadingDegrees=0.0 \
+-XMP-GPano:PosePitchDegrees=0.0 \
+-XMP-GPano:PoseRollDegrees=-5.0 \
+-XMP-GPano:InitialViewHeadingDegrees=0.0 \
+-XMP-GPano:InitialViewPitchDegrees=0.0 \
+-XMP-GPano:InitialViewRollDegrees=0.0 \
+-XMP-GPano:InitialHorizontalFOVDegrees=120.0 \
+-GPSLatitude="14 36 38.1060" -GPSLatitudeRef=North \
+-GPSLongitude="90 30 18.9504" -GPSLongitudeRef=West \
+-DateTimeOriginal="2010:10:05 07:20:15" \
+-CreateDate="2010:10:05 07:20:15" \
+-FileModifyDate="2010:10:05 07:20:15-06:00" \
+-ModifyDate="2010:10:05 07:20:15" \
+-OffsetTime="-06:00" \
+-OffsetTimeOriginal="-06:00" \
+-OffsetTimeDigitized="-06:00" \
+-IPTC:DigitalCreationDate="2010:10:05" \
+-IPTC:TimeCreated="07:20:15-06:00" \
+-IPTC:DigitalCreationTime="07:20:15-06:00" \
+-XMP:DateCreated="2010:10:05 07:20:15.00-06:00" \
+-overwrite_original \
+"./TestImages/06-Horizon_tilted_5_ccw.jpg"
+
+exiftool \
+-XMP-GPano:ProjectionType="equirectangular" \
+-XMP-GPano:UsePanoramaViewer=True \
+-XMP-GPano:FullPanoWidthPixels=7200 \
+-XMP-GPano:FullPanoHeightPixels=3600 \
+-XMP-GPano:CroppedAreaImageWidthPixels=7200 \
+-XMP-GPano:CroppedAreaImageHeightPixels=3600 \
+-XMP-GPano:CroppedAreaLeftPixels=0 \
+-XMP-GPano:CroppedAreaTopPixels=0 \
+-XMP-GPano:PoseHeadingDegrees=0.0 \
+-XMP-GPano:PosePitchDegrees=0.0 \
+-XMP-GPano:PoseRollDegrees=0.0 \
+-XMP-GPano:InitialViewHeadingDegrees=45.0 \
+-XMP-GPano:InitialViewPitchDegrees=0.0 \
+-XMP-GPano:InitialViewRollDegrees=0.0 \
+-XMP-GPano:InitialHorizontalFOVDegrees=120.0 \
+-GPSLatitude="14 36 38.1060" -GPSLatitudeRef=North \
+-GPSLongitude="90 30 18.9504" -GPSLongitudeRef=West \
+-DateTimeOriginal="2009:06:15 09:10:15" \
+-CreateDate="2009:06:15 09:10:15" \
+-FileModifyDate="2009:06:15 09:10:15-06:00" \
+-ModifyDate="2009:06:15 09:10:15" \
+-OffsetTime="-06:00" \
+-OffsetTimeOriginal="-06:00" \
+-OffsetTimeDigitized="-06:00" \
+-IPTC:DigitalCreationDate="2009:06:15" \
+-IPTC:TimeCreated="09:10:15-06:00" \
+-IPTC:DigitalCreationTime="09:10:15-06:00" \
+-XMP:DateCreated="2009:06:15 09:10:15.00-06:00" \
+-overwrite_original \
+"./TestImages/07-Initial_View_at_+45.jpg"
+
+exiftool \
+-XMP-GPano:ProjectionType="equirectangular" \
+-XMP-GPano:UsePanoramaViewer=True \
+-XMP-GPano:FullPanoWidthPixels=7200 \
+-XMP-GPano:FullPanoHeightPixels=3600 \
+-XMP-GPano:CroppedAreaImageWidthPixels=7200 \
+-XMP-GPano:CroppedAreaImageHeightPixels=3600 \
+-XMP-GPano:CroppedAreaLeftPixels=0 \
+-XMP-GPano:CroppedAreaTopPixels=0 \
+-XMP-GPano:PoseHeadingDegrees=0.0 \
+-XMP-GPano:PosePitchDegrees=0.0 \
+-XMP-GPano:PoseRollDegrees=0.0 \
+-XMP-GPano:InitialViewHeadingDegrees=315.0 \
+-XMP-GPano:InitialViewPitchDegrees=0.0 \
+-XMP-GPano:InitialViewRollDegrees=0.0 \
+-XMP-GPano:InitialHorizontalFOVDegrees=120.0 \
+-GPSLatitude="14 36 38.1060" -GPSLatitudeRef=North \
+-GPSLongitude="90 30 18.9504" -GPSLongitudeRef=West \
+-DateTimeOriginal="2009:06:15 09:10:15" \
+-CreateDate="2009:06:15 09:10:15" \
+-FileModifyDate="2009:06:15 09:10:15-06:00" \
+-ModifyDate="2009:06:15 09:10:15" \
+-OffsetTime="-06:00" \
+-OffsetTimeOriginal="-06:00" \
+-OffsetTimeDigitized="-06:00" \
+-IPTC:DigitalCreationDate="2009:06:15" \
+-IPTC:TimeCreated="09:10:15-06:00" \
+-IPTC:DigitalCreationTime="09:10:15-06:00" \
+-XMP:DateCreated="2009:06:15 09:10:15.00-06:00" \
+-overwrite_original \
+"./TestImages/08-Initial_View_at_-45.jpg"
+
+exiftool \
+-XMP-GPano:ProjectionType="equirectangular" \
+-XMP-GPano:UsePanoramaViewer=True \
+-XMP-GPano:FullPanoWidthPixels=7200 \
+-XMP-GPano:FullPanoHeightPixels=3600 \
+-XMP-GPano:CroppedAreaImageWidthPixels=7200 \
+-XMP-GPano:CroppedAreaImageHeightPixels=3600 \
+-XMP-GPano:CroppedAreaLeftPixels=0 \
+-XMP-GPano:CroppedAreaTopPixels=0 \
+-XMP-GPano:PoseHeadingDegrees=0.0 \
+-XMP-GPano:PosePitchDegrees=0.0 \
+-XMP-GPano:PoseRollDegrees=0.0 \
+-XMP-GPano:InitialViewHeadingDegrees=0.0 \
+-XMP-GPano:InitialViewPitchDegrees=5.0 \
+-XMP-GPano:InitialViewRollDegrees=0.0 \
+-XMP-GPano:InitialHorizontalFOVDegrees=120.0 \
+-GPSLatitude="14 36 38.1060" -GPSLatitudeRef=North \
+-GPSLongitude="90 30 18.9504" -GPSLongitudeRef=West \
+-DateTimeOriginal="2009:06:15 09:10:15" \
+-CreateDate="2009:06:15 09:10:15" \
+-FileModifyDate="2009:06:15 09:10:15-06:00" \
+-ModifyDate="2009:06:15 09:10:15" \
+-OffsetTime="-06:00" \
+-OffsetTimeOriginal="-06:00" \
+-OffsetTimeDigitized="-06:00" \
+-IPTC:DigitalCreationDate="2009:06:15" \
+-IPTC:TimeCreated="09:10:15-06:00" \
+-IPTC:DigitalCreationTime="09:10:15-06:00" \
+-XMP:DateCreated="2009:06:15 09:10:15.00-06:00" \
+-overwrite_original \
+"./TestImages/09-Initial_View_Pitch_+5.jpg"
+
+exiftool \
+-XMP-GPano:ProjectionType="equirectangular" \
+-XMP-GPano:UsePanoramaViewer=True \
+-XMP-GPano:FullPanoWidthPixels=7200 \
+-XMP-GPano:FullPanoHeightPixels=3600 \
+-XMP-GPano:CroppedAreaImageWidthPixels=7200 \
+-XMP-GPano:CroppedAreaImageHeightPixels=3600 \
+-XMP-GPano:CroppedAreaLeftPixels=0 \
+-XMP-GPano:CroppedAreaTopPixels=0 \
+-XMP-GPano:PoseHeadingDegrees=0.0 \
+-XMP-GPano:PosePitchDegrees=0.0 \
+-XMP-GPano:PoseRollDegrees=0.0 \
+-XMP-GPano:InitialViewHeadingDegrees=0.0 \
+-XMP-GPano:InitialViewPitchDegrees=-5.0 \
+-XMP-GPano:InitialViewRollDegrees=0.0 \
+-XMP-GPano:InitialHorizontalFOVDegrees=120.0 \
+-GPSLatitude="14 36 38.1060" -GPSLatitudeRef=North \
+-GPSLongitude="90 30 18.9504" -GPSLongitudeRef=West \
+-DateTimeOriginal="2009:06:15 09:10:15" \
+-CreateDate="2009:06:15 09:10:15" \
+-FileModifyDate="2009:06:15 09:10:15-06:00" \
+-ModifyDate="2009:06:15 09:10:15" \
+-OffsetTime="-06:00" \
+-OffsetTimeOriginal="-06:00" \
+-OffsetTimeDigitized="-06:00" \
+-IPTC:DigitalCreationDate="2009:06:15" \
+-IPTC:TimeCreated="09:10:15-06:00" \
+-IPTC:DigitalCreationTime="09:10:15-06:00" \
+-XMP:DateCreated="2009:06:15 09:10:15.00-06:00" \
+-overwrite_original \
+"./TestImages/10-Initial_View_Pitch_-5.jpg"
+
+exiftool \
+-XMP-GPano:ProjectionType="equirectangular" \
+-XMP-GPano:UsePanoramaViewer=True \
+-XMP-GPano:FullPanoWidthPixels=7200 \
+-XMP-GPano:FullPanoHeightPixels=3600 \
+-XMP-GPano:CroppedAreaImageWidthPixels=7200 \
+-XMP-GPano:CroppedAreaImageHeightPixels=3600 \
+-XMP-GPano:CroppedAreaLeftPixels=0 \
+-XMP-GPano:CroppedAreaTopPixels=0 \
+-XMP-GPano:PoseHeadingDegrees=0.0 \
+-XMP-GPano:PosePitchDegrees=0.0 \
+-XMP-GPano:PoseRollDegrees=0.0 \
+-XMP-GPano:InitialViewHeadingDegrees=0.0 \
+-XMP-GPano:InitialViewPitchDegrees=0.0 \
+-XMP-GPano:InitialViewRollDegrees=5.0 \
+-XMP-GPano:InitialHorizontalFOVDegrees=120.0 \
+-GPSLatitude="14 36 38.1060" -GPSLatitudeRef=North \
+-GPSLongitude="90 30 18.9504" -GPSLongitudeRef=West \
+-DateTimeOriginal="2009:06:15 09:10:15" \
+-CreateDate="2009:06:15 09:10:15" \
+-FileModifyDate="2009:06:15 09:10:15-06:00" \
+-ModifyDate="2009:06:15 09:10:15" \
+-OffsetTime="-06:00" \
+-OffsetTimeOriginal="-06:00" \
+-OffsetTimeDigitized="-06:00" \
+-IPTC:DigitalCreationDate="2009:06:15" \
+-IPTC:TimeCreated="09:10:15-06:00" \
+-IPTC:DigitalCreationTime="09:10:15-06:00" \
+-XMP:DateCreated="2009:06:15 09:10:15.00-06:00" \
+-overwrite_original \
+"./TestImages/11-Initial_View_Roll_+5.jpg"
+
+exiftool \
+-XMP-GPano:ProjectionType="equirectangular" \
+-XMP-GPano:UsePanoramaViewer=True \
+-XMP-GPano:FullPanoWidthPixels=7200 \
+-XMP-GPano:FullPanoHeightPixels=3600 \
+-XMP-GPano:CroppedAreaImageWidthPixels=7200 \
+-XMP-GPano:CroppedAreaImageHeightPixels=3600 \
+-XMP-GPano:CroppedAreaLeftPixels=0 \
+-XMP-GPano:CroppedAreaTopPixels=0 \
+-XMP-GPano:PoseHeadingDegrees=0.0 \
+-XMP-GPano:PosePitchDegrees=0.0 \
+-XMP-GPano:PoseRollDegrees=0.0 \
+-XMP-GPano:InitialViewHeadingDegrees=0.0 \
+-XMP-GPano:InitialViewPitchDegrees=0.0 \
+-XMP-GPano:InitialViewRollDegrees=-5.0 \
+-XMP-GPano:InitialHorizontalFOVDegrees=120.0 \
+-GPSLatitude="14 36 38.1060" -GPSLatitudeRef=North \
+-GPSLongitude="90 30 18.9504" -GPSLongitudeRef=West \
+-DateTimeOriginal="2009:06:15 09:10:15" \
+-CreateDate="2009:06:15 09:10:15" \
+-FileModifyDate="2009:06:15 09:10:15-06:00" \
+-ModifyDate="2009:06:15 09:10:15" \
+-OffsetTime="-06:00" \
+-OffsetTimeOriginal="-06:00" \
+-OffsetTimeDigitized="-06:00" \
+-IPTC:DigitalCreationDate="2009:06:15" \
+-IPTC:TimeCreated="09:10:15-06:00" \
+-IPTC:DigitalCreationTime="09:10:15-06:00" \
+-XMP:DateCreated="2009:06:15 09:10:15.00-06:00" \
+-overwrite_original \
+"./TestImages/12-Initial_View_Roll_-5.jpg"
+
+exiftool \
+-XMP-GPano:ProjectionType="equirectangular" \
+-XMP-GPano:UsePanoramaViewer=True \
+-XMP-GPano:FullPanoWidthPixels=7200 \
+-XMP-GPano:FullPanoHeightPixels=3600 \
+-XMP-GPano:CroppedAreaImageWidthPixels=7200 \
+-XMP-GPano:CroppedAreaImageHeightPixels=3600 \
+-XMP-GPano:CroppedAreaLeftPixels=0 \
+-XMP-GPano:CroppedAreaTopPixels=0 \
+-XMP-GPano:PoseHeadingDegrees=45.0 \
+-XMP-GPano:PosePitchDegrees=0.0 \
+-XMP-GPano:PoseRollDegrees=0.0 \
+-XMP-GPano:InitialViewHeadingDegrees=45.0 \
+-XMP-GPano:InitialViewPitchDegrees=0.0 \
+-XMP-GPano:InitialViewRollDegrees=0.0 \
+-XMP-GPano:InitialHorizontalFOVDegrees=120.0 \
+-GPSLatitude="14 36 18.6336" -GPSLatitudeRef=North \
+-GPSLongitude="90 30 35.9496" -GPSLongitudeRef=West \
+-DateTimeOriginal="1981:04:08 17:31:15" \
+-CreateDate="1981:04:08 17:31:15" \
+-FileModifyDate="1981:04:08 17:31:15-06:00" \
+-ModifyDate="1981:04:08 17:31:15" \
+-OffsetTime="-06:00" \
+-OffsetTimeOriginal="-06:00" \
+-OffsetTimeDigitized="-06:00" \
+-IPTC:DigitalCreationDate="1981:04:08" \
+-IPTC:TimeCreated="17:31:15-06:00" \
+-IPTC:DigitalCreationTime="17:31:15-06:00" \
+-XMP:DateCreated="1981:04:08 17:31:15.00-06:00" \
+-overwrite_original \
+"./TestImages/13-North_at_-45,_Initial_View_at_+45.jpg"
+
+exiftool \
+-XMP-GPano:ProjectionType="equirectangular" \
+-XMP-GPano:UsePanoramaViewer=True \
+-XMP-GPano:FullPanoWidthPixels=7200 \
+-XMP-GPano:FullPanoHeightPixels=3600 \
+-XMP-GPano:CroppedAreaImageWidthPixels=7200 \
+-XMP-GPano:CroppedAreaImageHeightPixels=3600 \
+-XMP-GPano:CroppedAreaLeftPixels=0 \
+-XMP-GPano:CroppedAreaTopPixels=0 \
+-XMP-GPano:PoseHeadingDegrees=45.0 \
+-XMP-GPano:PosePitchDegrees=5.0 \
+-XMP-GPano:PoseRollDegrees=5.0 \
+-XMP-GPano:InitialViewHeadingDegrees=0.0 \
+-XMP-GPano:InitialViewPitchDegrees=0.0 \
+-XMP-GPano:InitialViewRollDegrees=0.0 \
+-XMP-GPano:InitialHorizontalFOVDegrees=120.0 \
+-GPSLatitude="14 36 18.6336" -GPSLatitudeRef=North \
+-GPSLongitude="90 30 35.9496" -GPSLongitudeRef=West \
+-DateTimeOriginal="1981:04:08 17:31:15" \
+-CreateDate="1981:04:08 17:31:15" \
+-FileModifyDate="1981:04:08 17:31:15-06:00" \
+-ModifyDate="1981:04:08 17:31:15" \
+-OffsetTime="-06:00" \
+-OffsetTimeOriginal="-06:00" \
+-OffsetTimeDigitized="-06:00" \
+-IPTC:DigitalCreationDate="1981:04:08" \
+-IPTC:TimeCreated="17:31:15-06:00" \
+-IPTC:DigitalCreationTime="17:31:15-06:00" \
+-XMP:DateCreated="1981:04:08 17:31:15.00-06:00" \
+-overwrite_original \
+"./TestImages/14-All_Pose_Combined.jpg"
+
+exiftool \
+-XMP-GPano:ProjectionType="equirectangular" \
+-XMP-GPano:UsePanoramaViewer=True \
+-XMP-GPano:FullPanoWidthPixels=7200 \
+-XMP-GPano:FullPanoHeightPixels=3600 \
+-XMP-GPano:CroppedAreaImageWidthPixels=7200 \
+-XMP-GPano:CroppedAreaImageHeightPixels=3600 \
+-XMP-GPano:CroppedAreaLeftPixels=0 \
+-XMP-GPano:CroppedAreaTopPixels=0 \
+-XMP-GPano:PoseHeadingDegrees=0.0 \
+-XMP-GPano:PosePitchDegrees=90.0 \
+-XMP-GPano:PoseRollDegrees=0.0 \
+-XMP-GPano:InitialViewHeadingDegrees=0.0 \
+-XMP-GPano:InitialViewPitchDegrees=0.0 \
+-XMP-GPano:InitialViewRollDegrees=0.0 \
+-XMP-GPano:InitialHorizontalFOVDegrees=120.0 \
+-GPSLatitude="14 38 18.1068" -GPSLatitudeRef=North \
+-GPSLongitude="90 31 0.0660" -GPSLongitudeRef=West \
+-DateTimeOriginal="1980:09:20 10:29:15" \
+-CreateDate="1980:09:20 10:29:15" \
+-FileModifyDate="1980:09:20 10:29:15-06:00" \
+-ModifyDate="1980:09:20 10:29:15" \
+-OffsetTime="-06:00" \
+-OffsetTimeOriginal="-06:00" \
+-OffsetTimeDigitized="-06:00" \
+-IPTC:DigitalCreationDate="1980:09:20" \
+-IPTC:TimeCreated="10:29:15-06:00" \
+-IPTC:DigitalCreationTime="10:29:15-06:00" \
+-XMP:DateCreated="1980:09:20 10:29:15.00-06:00" \
+-overwrite_original \
+"./TestImages/15-pitch_gimbal_lock.jpg"
