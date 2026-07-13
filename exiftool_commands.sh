@@ -18,17 +18,17 @@ exiftool \
 -XMP-GPano:InitialHorizontalFOVDegrees=120.0 \
 -GPSLatitude="14 36 38.1060" -GPSLatitudeRef=North \
 -GPSLongitude="90 30 18.9504" -GPSLongitudeRef=West \
--DateTimeOriginal="2010:10:05 07:20:15" \
--CreateDate="2010:10:05 07:20:15" \
--FileModifyDate="2010:10:05 07:20:15-06:00" \
--ModifyDate="2010:10:05 07:20:15" \
+-DateTimeOriginal="2010:10:05 07:25:15" \
+-CreateDate="2010:10:05 07:25:15" \
+-FileModifyDate="2010:10:05 07:25:15-06:00" \
+-ModifyDate="2010:10:05 07:25:15" \
 -OffsetTime="-06:00" \
 -OffsetTimeOriginal="-06:00" \
 -OffsetTimeDigitized="-06:00" \
 -IPTC:DigitalCreationDate="2010:10:05" \
--IPTC:TimeCreated="07:20:15-06:00" \
--IPTC:DigitalCreationTime="07:20:15-06:00" \
--XMP:DateCreated="2010:10:05 07:20:15.00-06:00" \
+-IPTC:TimeCreated="07:25:15-06:00" \
+-IPTC:DigitalCreationTime="07:25:15-06:00" \
+-XMP:DateCreated="2010:10:05 07:25:15.00-06:00" \
 -overwrite_original \
 "./TestImages/01-North_at_+45.jpg"
 
@@ -50,17 +50,17 @@ exiftool \
 -XMP-GPano:InitialHorizontalFOVDegrees=120.0 \
 -GPSLatitude="14 36 38.1060" -GPSLatitudeRef=North \
 -GPSLongitude="90 30 18.9504" -GPSLongitudeRef=West \
--DateTimeOriginal="2010:10:05 07:20:15" \
--CreateDate="2010:10:05 07:20:15" \
--FileModifyDate="2010:10:05 07:20:15-06:00" \
--ModifyDate="2010:10:05 07:20:15" \
+-DateTimeOriginal="2010:10:05 07:24:15" \
+-CreateDate="2010:10:05 07:24:15" \
+-FileModifyDate="2010:10:05 07:24:15-06:00" \
+-ModifyDate="2010:10:05 07:24:15" \
 -OffsetTime="-06:00" \
 -OffsetTimeOriginal="-06:00" \
 -OffsetTimeDigitized="-06:00" \
 -IPTC:DigitalCreationDate="2010:10:05" \
--IPTC:TimeCreated="07:20:15-06:00" \
--IPTC:DigitalCreationTime="07:20:15-06:00" \
--XMP:DateCreated="2010:10:05 07:20:15.00-06:00" \
+-IPTC:TimeCreated="07:24:15-06:00" \
+-IPTC:DigitalCreationTime="07:24:15-06:00" \
+-XMP:DateCreated="2010:10:05 07:24:15.00-06:00" \
 -overwrite_original \
 "./TestImages/02-North_at_-45.jpg"
 
@@ -82,17 +82,17 @@ exiftool \
 -XMP-GPano:InitialHorizontalFOVDegrees=120.0 \
 -GPSLatitude="14 36 38.1060" -GPSLatitudeRef=North \
 -GPSLongitude="90 30 18.9504" -GPSLongitudeRef=West \
--DateTimeOriginal="2010:10:05 07:20:15" \
--CreateDate="2010:10:05 07:20:15" \
--FileModifyDate="2010:10:05 07:20:15-06:00" \
--ModifyDate="2010:10:05 07:20:15" \
+-DateTimeOriginal="2010:10:05 07:23:15" \
+-CreateDate="2010:10:05 07:23:15" \
+-FileModifyDate="2010:10:05 07:23:15-06:00" \
+-ModifyDate="2010:10:05 07:23:15" \
 -OffsetTime="-06:00" \
 -OffsetTimeOriginal="-06:00" \
 -OffsetTimeDigitized="-06:00" \
 -IPTC:DigitalCreationDate="2010:10:05" \
--IPTC:TimeCreated="07:20:15-06:00" \
--IPTC:DigitalCreationTime="07:20:15-06:00" \
--XMP:DateCreated="2010:10:05 07:20:15.00-06:00" \
+-IPTC:TimeCreated="07:23:15-06:00" \
+-IPTC:DigitalCreationTime="07:23:15-06:00" \
+-XMP:DateCreated="2010:10:05 07:23:15.00-06:00" \
 -overwrite_original \
 "./TestImages/03-Horizon_Below_5.jpg"
 
@@ -114,17 +114,17 @@ exiftool \
 -XMP-GPano:InitialHorizontalFOVDegrees=120.0 \
 -GPSLatitude="14 36 38.1060" -GPSLatitudeRef=North \
 -GPSLongitude="90 30 18.9504" -GPSLongitudeRef=West \
--DateTimeOriginal="2010:10:05 07:20:15" \
--CreateDate="2010:10:05 07:20:15" \
--FileModifyDate="2010:10:05 07:20:15-06:00" \
--ModifyDate="2010:10:05 07:20:15" \
+-DateTimeOriginal="2010:10:05 07:22:15" \
+-CreateDate="2010:10:05 07:22:15" \
+-FileModifyDate="2010:10:05 07:22:15-06:00" \
+-ModifyDate="2010:10:05 07:22:15" \
 -OffsetTime="-06:00" \
 -OffsetTimeOriginal="-06:00" \
 -OffsetTimeDigitized="-06:00" \
 -IPTC:DigitalCreationDate="2010:10:05" \
--IPTC:TimeCreated="07:20:15-06:00" \
--IPTC:DigitalCreationTime="07:20:15-06:00" \
--XMP:DateCreated="2010:10:05 07:20:15.00-06:00" \
+-IPTC:TimeCreated="07:22:15-06:00" \
+-IPTC:DigitalCreationTime="07:22:15-06:00" \
+-XMP:DateCreated="2010:10:05 07:22:15.00-06:00" \
 -overwrite_original \
 "./TestImages/04-Horizon_Above_5.jpg"
 
@@ -146,17 +146,17 @@ exiftool \
 -XMP-GPano:InitialHorizontalFOVDegrees=120.0 \
 -GPSLatitude="14 36 38.1060" -GPSLatitudeRef=North \
 -GPSLongitude="90 30 18.9504" -GPSLongitudeRef=West \
--DateTimeOriginal="2010:10:05 07:20:15" \
--CreateDate="2010:10:05 07:20:15" \
--FileModifyDate="2010:10:05 07:20:15-06:00" \
--ModifyDate="2010:10:05 07:20:15" \
+-DateTimeOriginal="2010:10:05 07:21:15" \
+-CreateDate="2010:10:05 07:21:15" \
+-FileModifyDate="2010:10:05 07:21:15-06:00" \
+-ModifyDate="2010:10:05 07:21:15" \
 -OffsetTime="-06:00" \
 -OffsetTimeOriginal="-06:00" \
 -OffsetTimeDigitized="-06:00" \
 -IPTC:DigitalCreationDate="2010:10:05" \
--IPTC:TimeCreated="07:20:15-06:00" \
--IPTC:DigitalCreationTime="07:20:15-06:00" \
--XMP:DateCreated="2010:10:05 07:20:15.00-06:00" \
+-IPTC:TimeCreated="07:21:15-06:00" \
+-IPTC:DigitalCreationTime="07:21:15-06:00" \
+-XMP:DateCreated="2010:10:05 07:21:15.00-06:00" \
 -overwrite_original \
 "./TestImages/05-Horizon_tilted_5_cw.jpg"
 
@@ -210,17 +210,17 @@ exiftool \
 -XMP-GPano:InitialHorizontalFOVDegrees=120.0 \
 -GPSLatitude="14 36 38.1060" -GPSLatitudeRef=North \
 -GPSLongitude="90 30 18.9504" -GPSLongitudeRef=West \
--DateTimeOriginal="2009:06:15 09:10:15" \
--CreateDate="2009:06:15 09:10:15" \
--FileModifyDate="2009:06:15 09:10:15-06:00" \
--ModifyDate="2009:06:15 09:10:15" \
+-DateTimeOriginal="2009:06:15 09:16:15" \
+-CreateDate="2009:06:15 09:16:15" \
+-FileModifyDate="2009:06:15 09:16:15-06:00" \
+-ModifyDate="2009:06:15 09:16:15" \
 -OffsetTime="-06:00" \
 -OffsetTimeOriginal="-06:00" \
 -OffsetTimeDigitized="-06:00" \
 -IPTC:DigitalCreationDate="2009:06:15" \
--IPTC:TimeCreated="09:10:15-06:00" \
--IPTC:DigitalCreationTime="09:10:15-06:00" \
--XMP:DateCreated="2009:06:15 09:10:15.00-06:00" \
+-IPTC:TimeCreated="09:16:15-06:00" \
+-IPTC:DigitalCreationTime="09:16:15-06:00" \
+-XMP:DateCreated="2009:06:15 09:16:15.00-06:00" \
 -overwrite_original \
 "./TestImages/07-Initial_View_at_+45.jpg"
 
@@ -242,17 +242,17 @@ exiftool \
 -XMP-GPano:InitialHorizontalFOVDegrees=120.0 \
 -GPSLatitude="14 36 38.1060" -GPSLatitudeRef=North \
 -GPSLongitude="90 30 18.9504" -GPSLongitudeRef=West \
--DateTimeOriginal="2009:06:15 09:10:15" \
--CreateDate="2009:06:15 09:10:15" \
--FileModifyDate="2009:06:15 09:10:15-06:00" \
--ModifyDate="2009:06:15 09:10:15" \
+-DateTimeOriginal="2009:06:15 09:15:15" \
+-CreateDate="2009:06:15 09:15:15" \
+-FileModifyDate="2009:06:15 09:15:15-06:00" \
+-ModifyDate="2009:06:15 09:15:15" \
 -OffsetTime="-06:00" \
 -OffsetTimeOriginal="-06:00" \
 -OffsetTimeDigitized="-06:00" \
 -IPTC:DigitalCreationDate="2009:06:15" \
--IPTC:TimeCreated="09:10:15-06:00" \
--IPTC:DigitalCreationTime="09:10:15-06:00" \
--XMP:DateCreated="2009:06:15 09:10:15.00-06:00" \
+-IPTC:TimeCreated="09:15:15-06:00" \
+-IPTC:DigitalCreationTime="09:15:15-06:00" \
+-XMP:DateCreated="2009:06:15 09:15:15.00-06:00" \
 -overwrite_original \
 "./TestImages/08-Initial_View_at_-45.jpg"
 
@@ -274,17 +274,17 @@ exiftool \
 -XMP-GPano:InitialHorizontalFOVDegrees=120.0 \
 -GPSLatitude="14 36 38.1060" -GPSLatitudeRef=North \
 -GPSLongitude="90 30 18.9504" -GPSLongitudeRef=West \
--DateTimeOriginal="2009:06:15 09:10:15" \
--CreateDate="2009:06:15 09:10:15" \
--FileModifyDate="2009:06:15 09:10:15-06:00" \
--ModifyDate="2009:06:15 09:10:15" \
+-DateTimeOriginal="2009:06:15 09:14:15" \
+-CreateDate="2009:06:15 09:14:15" \
+-FileModifyDate="2009:06:15 09:14:15-06:00" \
+-ModifyDate="2009:06:15 09:14:15" \
 -OffsetTime="-06:00" \
 -OffsetTimeOriginal="-06:00" \
 -OffsetTimeDigitized="-06:00" \
 -IPTC:DigitalCreationDate="2009:06:15" \
--IPTC:TimeCreated="09:10:15-06:00" \
--IPTC:DigitalCreationTime="09:10:15-06:00" \
--XMP:DateCreated="2009:06:15 09:10:15.00-06:00" \
+-IPTC:TimeCreated="09:14:15-06:00" \
+-IPTC:DigitalCreationTime="09:14:15-06:00" \
+-XMP:DateCreated="2009:06:15 09:14:15.00-06:00" \
 -overwrite_original \
 "./TestImages/09-Initial_View_Pitch_+5.jpg"
 
@@ -306,17 +306,17 @@ exiftool \
 -XMP-GPano:InitialHorizontalFOVDegrees=120.0 \
 -GPSLatitude="14 36 38.1060" -GPSLatitudeRef=North \
 -GPSLongitude="90 30 18.9504" -GPSLongitudeRef=West \
--DateTimeOriginal="2009:06:15 09:10:15" \
--CreateDate="2009:06:15 09:10:15" \
--FileModifyDate="2009:06:15 09:10:15-06:00" \
--ModifyDate="2009:06:15 09:10:15" \
+-DateTimeOriginal="2009:06:15 09:13:15" \
+-CreateDate="2009:06:15 09:13:15" \
+-FileModifyDate="2009:06:15 09:13:15-06:00" \
+-ModifyDate="2009:06:15 09:13:15" \
 -OffsetTime="-06:00" \
 -OffsetTimeOriginal="-06:00" \
 -OffsetTimeDigitized="-06:00" \
 -IPTC:DigitalCreationDate="2009:06:15" \
--IPTC:TimeCreated="09:10:15-06:00" \
--IPTC:DigitalCreationTime="09:10:15-06:00" \
--XMP:DateCreated="2009:06:15 09:10:15.00-06:00" \
+-IPTC:TimeCreated="09:13:15-06:00" \
+-IPTC:DigitalCreationTime="09:13:15-06:00" \
+-XMP:DateCreated="2009:06:15 09:13:15.00-06:00" \
 -overwrite_original \
 "./TestImages/10-Initial_View_Pitch_-5.jpg"
 
@@ -338,17 +338,17 @@ exiftool \
 -XMP-GPano:InitialHorizontalFOVDegrees=120.0 \
 -GPSLatitude="14 36 38.1060" -GPSLatitudeRef=North \
 -GPSLongitude="90 30 18.9504" -GPSLongitudeRef=West \
--DateTimeOriginal="2009:06:15 09:10:15" \
--CreateDate="2009:06:15 09:10:15" \
--FileModifyDate="2009:06:15 09:10:15-06:00" \
--ModifyDate="2009:06:15 09:10:15" \
+-DateTimeOriginal="2009:06:15 09:12:15" \
+-CreateDate="2009:06:15 09:12:15" \
+-FileModifyDate="2009:06:15 09:12:15-06:00" \
+-ModifyDate="2009:06:15 09:12:15" \
 -OffsetTime="-06:00" \
 -OffsetTimeOriginal="-06:00" \
 -OffsetTimeDigitized="-06:00" \
 -IPTC:DigitalCreationDate="2009:06:15" \
--IPTC:TimeCreated="09:10:15-06:00" \
--IPTC:DigitalCreationTime="09:10:15-06:00" \
--XMP:DateCreated="2009:06:15 09:10:15.00-06:00" \
+-IPTC:TimeCreated="09:12:15-06:00" \
+-IPTC:DigitalCreationTime="09:12:15-06:00" \
+-XMP:DateCreated="2009:06:15 09:12:15.00-06:00" \
 -overwrite_original \
 "./TestImages/11-Initial_View_Roll_+5.jpg"
 
@@ -370,17 +370,17 @@ exiftool \
 -XMP-GPano:InitialHorizontalFOVDegrees=120.0 \
 -GPSLatitude="14 36 38.1060" -GPSLatitudeRef=North \
 -GPSLongitude="90 30 18.9504" -GPSLongitudeRef=West \
--DateTimeOriginal="2009:06:15 09:10:15" \
--CreateDate="2009:06:15 09:10:15" \
--FileModifyDate="2009:06:15 09:10:15-06:00" \
--ModifyDate="2009:06:15 09:10:15" \
+-DateTimeOriginal="2009:06:15 09:11:15" \
+-CreateDate="2009:06:15 09:11:15" \
+-FileModifyDate="2009:06:15 09:11:15-06:00" \
+-ModifyDate="2009:06:15 09:11:15" \
 -OffsetTime="-06:00" \
 -OffsetTimeOriginal="-06:00" \
 -OffsetTimeDigitized="-06:00" \
 -IPTC:DigitalCreationDate="2009:06:15" \
--IPTC:TimeCreated="09:10:15-06:00" \
--IPTC:DigitalCreationTime="09:10:15-06:00" \
--XMP:DateCreated="2009:06:15 09:10:15.00-06:00" \
+-IPTC:TimeCreated="09:11:15-06:00" \
+-IPTC:DigitalCreationTime="09:11:15-06:00" \
+-XMP:DateCreated="2009:06:15 09:11:15.00-06:00" \
 -overwrite_original \
 "./TestImages/12-Initial_View_Roll_-5.jpg"
 
@@ -402,17 +402,17 @@ exiftool \
 -XMP-GPano:InitialHorizontalFOVDegrees=120.0 \
 -GPSLatitude="14 36 18.6336" -GPSLatitudeRef=North \
 -GPSLongitude="90 30 35.9496" -GPSLongitudeRef=West \
--DateTimeOriginal="1981:04:08 17:31:15" \
--CreateDate="1981:04:08 17:31:15" \
--FileModifyDate="1981:04:08 17:31:15-06:00" \
--ModifyDate="1981:04:08 17:31:15" \
+-DateTimeOriginal="1981:04:08 17:32:15" \
+-CreateDate="1981:04:08 17:32:15" \
+-FileModifyDate="1981:04:08 17:32:15-06:00" \
+-ModifyDate="1981:04:08 17:32:15" \
 -OffsetTime="-06:00" \
 -OffsetTimeOriginal="-06:00" \
 -OffsetTimeDigitized="-06:00" \
 -IPTC:DigitalCreationDate="1981:04:08" \
--IPTC:TimeCreated="17:31:15-06:00" \
--IPTC:DigitalCreationTime="17:31:15-06:00" \
--XMP:DateCreated="1981:04:08 17:31:15.00-06:00" \
+-IPTC:TimeCreated="17:32:15-06:00" \
+-IPTC:DigitalCreationTime="17:32:15-06:00" \
+-XMP:DateCreated="1981:04:08 17:32:15.00-06:00" \
 -overwrite_original \
 "./TestImages/13-North_at_-45,_Initial_View_at_+45.jpg"
 
