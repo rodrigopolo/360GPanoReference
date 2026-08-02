@@ -139,7 +139,7 @@ exiftool \
 -XMP-GPano:CroppedAreaTopPixels=0 \
 -XMP-GPano:PoseHeadingDegrees=0.0 \
 -XMP-GPano:PosePitchDegrees=0.0 \
--XMP-GPano:PoseRollDegrees=5.0 \
+-XMP-GPano:PoseRollDegrees=-5.0 \
 -XMP-GPano:InitialViewHeadingDegrees=0.0 \
 -XMP-GPano:InitialViewPitchDegrees=0.0 \
 -XMP-GPano:InitialViewRollDegrees=0.0 \
@@ -171,7 +171,7 @@ exiftool \
 -XMP-GPano:CroppedAreaTopPixels=0 \
 -XMP-GPano:PoseHeadingDegrees=0.0 \
 -XMP-GPano:PosePitchDegrees=0.0 \
--XMP-GPano:PoseRollDegrees=-5.0 \
+-XMP-GPano:PoseRollDegrees=5.0 \
 -XMP-GPano:InitialViewHeadingDegrees=0.0 \
 -XMP-GPano:InitialViewPitchDegrees=0.0 \
 -XMP-GPano:InitialViewRollDegrees=0.0 \
@@ -427,7 +427,7 @@ exiftool \
 -XMP-GPano:CroppedAreaTopPixels=0 \
 -XMP-GPano:PoseHeadingDegrees=45.0 \
 -XMP-GPano:PosePitchDegrees=5.0 \
--XMP-GPano:PoseRollDegrees=5.0 \
+-XMP-GPano:PoseRollDegrees=-5.0 \
 -XMP-GPano:InitialViewHeadingDegrees=0.0 \
 -XMP-GPano:InitialViewPitchDegrees=0.0 \
 -XMP-GPano:InitialViewRollDegrees=0.0 \
