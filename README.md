@@ -1,9 +1,20 @@
 # Photo Sphere XMP Metadata reference
 
-This repository aims to clarify and explain as clearly as possible how EXIF tags
-and the Google Photo Sphere XMP schema should work, including 15 test images
-that already contain the embedded metadata to be tested and viewed in any 360
-image viewer.
+This repository aims to clarify and explain as clearly as possible how EXIF
+tags and the Google Photo Sphere XMP schema should work, including 15 test
+images that already contain the embedded metadata to be tested and viewed in
+any 360 image viewer, **some of the images have the raw pixel data distorted**
+to simulate images taken by a device that was not perfectly aligned to the
+horizon, or to the true North.
+
+**The main objective is to comply with GPano specs** even if that means
+contradicting any vendor who wrongfully implemented those specs. Standards are
+made for a reason.
+
+To facilitate the understanding of the GPano spec I made a visualizer to show
+the tags that get confused the most, you can load a pano image in that
+visualizer and experiment moving the sliders:  
+https://tools.rodrigopolo.com/GPanoVisualizer/
 
 ## Google Photo Sphere XMP schema
 
